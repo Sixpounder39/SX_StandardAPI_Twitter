@@ -1,0 +1,40 @@
+Instalar Python 3.7
+
+** Si no se usa root, instalar con sudo
+
+# apt-get install build-essential checkinstall
+
+# apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev \
+    libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
+
+# cd /usr/src
+
+# wget wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+
+# tar xzf Python-3.7.0.tgz
+
+# cd Python-3.7.0
+
+# ./configure --enable-optimizations
+
+# make altinstall
+
+
+Con altinstall evitamos que se sustituyan los binarios por defecto de la versión actual de python en el fichero usr/bin/python
+
+Usar PIP con una versión determinada 
+
+# python3.7 -m pip install [modulo]
+
+Correr script Python con una versión determinada
+
+# python3.7 [tuscript.py]
+
+
+Fuente sobre instalación de P3:
+https://tecadmin.net/install-python-3-7-on-ubuntu-linuxmint/
+
+
+
+
+
