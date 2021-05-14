@@ -1,6 +1,6 @@
 # SX_StandardAPI_Twitter
 
-SX Standard API Twitter
+SX Standard API Twitter // Respaldo de mi cuenta anterior
 
 Script en Python para generar un archivo JSON con los Tweets generados usando la API Standard de Twitter
 
